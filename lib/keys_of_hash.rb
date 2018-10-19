@@ -1,10 +1,11 @@
 require "pry"
 class Hash
   def keys_of(*arguments)
-    self.map do |animal, loc|
+    ans = []
+    self.each do |animal, loc|
       if arguments == loc
 
-        return animal
+        ans.push(animal) 
       end
     end
   end

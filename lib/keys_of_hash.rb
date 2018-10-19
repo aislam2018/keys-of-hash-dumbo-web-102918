@@ -8,6 +8,6 @@ class Hash
         ans.push(animal) 
       end
     end
+    ans
   end
-  ans
 end

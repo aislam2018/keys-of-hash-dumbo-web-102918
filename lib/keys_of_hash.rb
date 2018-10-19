@@ -3,7 +3,7 @@ class Hash
   def keys_of(*arguments)
     ans = []
     self.each do |animal, loc|
-      if *arguments == loc
+      if arguments == loc
 
         ans.push(animal) 
       end

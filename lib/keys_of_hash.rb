@@ -1,6 +1,6 @@
 require "pry"
 class Hash
-  def keys_of(arguments)
+  def keys_of(*arguments)
     self.map do |animal, loc|
       if arguments == loc
 
